@@ -1,0 +1,22 @@
+Esercizio contratto telofonico Ereditarietà
+Definire la classe contrattoTelefonico, che definisce un veicolo con le seguenti
+caratteristiche:
+- numero telefonico
+- nome utente
+- costo telefonate
+- numero telefonate
+- costo che indica il costo al secondo delle telefonate
+Il costruttore inizializza il nome utente, il numero telefonico e il costo.
+Definire i seguenti metodi
+public String datiUtenza()// metodo per ottenere i dati dell&#39;utente
+public void aggiornaBolletta(int numSecondi)// aggiorna la spesa telefonica per una
+telefonata di un assegnato numero di secondi.
+public void aggiungiCosti(double c)
+public double dammiBolletta()// restituisce la bolletta telefonica
+Definire la sottoclasse contrattoFisso che ha in più il l&#39;indirizzo dell&#39;utente e il
+metodo che sovrascrive il metodo datiUtenza per stampare anche l&#39;indirizzo.
+Definire la sottoclasse contrattoMobile che ha in più il costoRisposta che indica il
+costo fisso alla risposta e sovrascrive il metodo aggiornaBolletta per aggiungere il
+costo alla risposta.
+
+Scrivere la classe main che testa le classi contrattoFisso e contrattoMobile.
