@@ -1,47 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interfaccia">
-  <grid id="27dc6" binding="interfaccia" layout-manager="GridLayoutManager" row-count="19" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-    <margin top="0" left="0" bottom="0" right="0"/>
+  <grid id="27dc6" binding="interfaccia" layout-manager="GridLayoutManager" row-count="11" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
     <constraints>
-      <xy x="20" y="99" width="558" height="584"/>
+      <xy x="20" y="99" width="918" height="782"/>
     </constraints>
     <properties>
-      <background color="-14079703"/>
-      <foreground color="-1"/>
+      <background color="-13290187"/>
+      <enabled value="true"/>
+      <font/>
+      <foreground color="-16777216"/>
     </properties>
-    <border type="none" title="Z"/>
+    <border type="none"/>
     <children>
-      <component id="5c54f" class="javax.swing.JLabel" binding="NumeroTel">
+      <component id="672fd" class="javax.swing.JLabel" binding="Num1">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <foreground color="-1250068"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="422de" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Segoe UI" size="24" style="1"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Informazioni utente"/>
+        </properties>
+      </component>
+      <component id="3411d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Segoe UI" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="Inserimento"/>
+        </properties>
+      </component>
+      <component id="5c54f" class="javax.swing.JLabel" binding="NumeroTel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="0"/>
           <text value="Numero telefonico"/>
         </properties>
       </component>
-      <component id="e36fe" class="javax.swing.JButton" binding="invianumero">
+      <component id="8bff" class="javax.swing.JLabel" binding="NumeroUtente">
         <constraints>
-          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="1" height="1"/>
-          </grid>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <background color="-14474203"/>
+          <font name="Segoe UI" size="16"/>
           <foreground color="-1250068"/>
-          <text value="Salva"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Cognome/Nome"/>
         </properties>
       </component>
-      <component id="c989e" class="javax.swing.JButton" binding="invianome">
+      <component id="f8048" class="javax.swing.JLabel" binding="aggcosto">
         <constraints>
-          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="1" height="1"/>
-          </grid>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <background color="-14474203"/>
+          <font name="Segoe UI" size="16"/>
           <foreground color="-1250068"/>
-          <text value="Salva"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Aggiungi costo/min"/>
+        </properties>
+      </component>
+      <component id="64f11" class="javax.swing.JLabel" binding="costoR1">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Costo Risposta(mobile)"/>
+        </properties>
+      </component>
+      <component id="7d2b1" class="javax.swing.JLabel" binding="CostoMens">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Costo Mensile(Fisso)"/>
         </properties>
       </component>
       <component id="b391e" class="javax.swing.JTextField" binding="Tx1">
@@ -64,51 +120,6 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="672fd" class="javax.swing.JLabel" binding="Num1">
-        <constraints>
-          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="a3ea7" class="javax.swing.JLabel" binding="NumeroT">
-        <constraints>
-          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value="  Numero telefonico :"/>
-        </properties>
-      </component>
-      <component id="8f825" class="javax.swing.JLabel" binding="nome">
-        <constraints>
-          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=" Nome :"/>
-        </properties>
-      </component>
-      <component id="67289" class="javax.swing.JLabel" binding="Nome1">
-        <constraints>
-          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="8bff" class="javax.swing.JLabel" binding="NumeroUtente">
-        <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=" Cognome/Nome"/>
-        </properties>
-      </component>
       <component id="fb0a4" class="javax.swing.JTextField" binding="Tx3">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
@@ -117,74 +128,6 @@
         </constraints>
         <properties>
           <text value=""/>
-        </properties>
-      </component>
-      <component id="f8048" class="javax.swing.JLabel" binding="aggcosto">
-        <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value="Aggiungi costo/min"/>
-        </properties>
-      </component>
-      <component id="c1f9c" class="javax.swing.JButton" binding="aggiungicosto">
-        <constraints>
-          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="1" height="1"/>
-          </grid>
-        </constraints>
-        <properties>
-          <background color="-14474203"/>
-          <enabled value="true"/>
-          <foreground color="-1250068"/>
-          <text value="Salva"/>
-        </properties>
-      </component>
-      <component id="cb4f2" class="javax.swing.JTextField" binding="Tx4">
-        <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="85004" class="javax.swing.JLabel" binding="indirizzo">
-        <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=" Indirizzo(solo fisso)"/>
-        </properties>
-      </component>
-      <component id="41764" class="javax.swing.JButton" binding="inviaindirizzo">
-        <constraints>
-          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="1" height="1"/>
-          </grid>
-        </constraints>
-        <properties>
-          <background color="-14474203"/>
-          <enabled value="true"/>
-          <foreground color="-1250068"/>
-          <text value="Salva"/>
-        </properties>
-      </component>
-      <vspacer id="b8e58">
-        <constraints>
-          <grid row="10" column="2" row-span="6" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
-      <component id="64f11" class="javax.swing.JLabel" binding="costoR1">
-        <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value="   Costo Risposta(solo mobile)"/>
         </properties>
       </component>
       <component id="2c6ce" class="javax.swing.JTextField" binding="Tx5">
@@ -197,45 +140,297 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="bd1ea" class="javax.swing.JButton" binding="inviacostoR">
+      <component id="a007e" class="javax.swing.JTextField" binding="Tx7">
         <constraints>
-          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e36fe" class="javax.swing.JButton" binding="invianumero">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="1" height="1"/>
           </grid>
         </constraints>
         <properties>
           <background color="-14474203"/>
           <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <foreground color="-1250068"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="false"/>
           <text value="Salva"/>
+          <verifyInputWhenFocusTarget value="false"/>
         </properties>
       </component>
-      <component id="e4fb9" class="javax.swing.JButton" binding="Calcola">
+      <component id="c989e" class="javax.swing.JButton" binding="invianome">
         <constraints>
-          <grid row="10" column="3" row-span="6" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="1" height="1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14474203"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <foreground color="-1250068"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="false"/>
+          <selected value="false"/>
+          <text value="Salva"/>
+          <verifyInputWhenFocusTarget value="false"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="c1f9c" class="javax.swing.JButton" binding="aggiungicosto">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="1" height="1"/>
           </grid>
         </constraints>
         <properties>
           <background color="-14474203"/>
           <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <foreground color="-1250068"/>
-          <text value="Calcola"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="false"/>
+          <text value="Salva"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="bd1ea" class="javax.swing.JButton" binding="inviacostoR">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="1" height="1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14474203"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <foreground color="-1250068"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="false"/>
+          <text value="Salva"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="b6522" class="javax.swing.JButton" binding="inviacostfisso">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14474203"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <foreground color="-1250068"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="false"/>
+          <text value="Salva"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <vspacer id="65728">
+        <constraints>
+          <grid row="0" column="3" row-span="11" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="8f825" class="javax.swing.JLabel" binding="nome">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Nome :"/>
+        </properties>
+      </component>
+      <component id="a3ea7" class="javax.swing.JLabel" binding="NumeroT">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Numero telefonico :"/>
+        </properties>
+      </component>
+      <component id="3efba" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Indirizzo :"/>
+        </properties>
+      </component>
+      <component id="1cac0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Costo/mese :"/>
+        </properties>
+      </component>
+      <component id="5be11" class="javax.swing.JLabel" binding="bollettaM">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1250068"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1ac72" class="javax.swing.JLabel" binding="CostoF">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1250068"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5f647" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Segoe UI" size="24" style="1"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Bolletta mobile"/>
+        </properties>
+      </component>
+      <component id="f56ec" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Costo/min :"/>
+        </properties>
+      </component>
+      <component id="561c4" class="javax.swing.JLabel" binding="Ntelefonate">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Numero Telefonate :"/>
+        </properties>
+      </component>
+      <component id="4e14c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Costo Risposta :"/>
+        </properties>
+      </component>
+      <component id="e2e15" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Pagamento Totale :"/>
+        </properties>
+      </component>
+      <component id="8d7d" class="javax.swing.JLabel" binding="telefonate">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-1250068"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="79e07" class="javax.swing.JLabel" binding="costoR">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-1250068"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b507d" class="javax.swing.JLabel" binding="TotaleM">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-1250068"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="60405" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="24" style="1"/>
+          <foreground color="-1250068"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Bolletta fisso"/>
+        </properties>
+      </component>
+      <component id="67289" class="javax.swing.JLabel" binding="Nome1">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1250068"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="c9fe3" class="javax.swing.JLabel" binding="instel">
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Segoe UI" size="16"/>
           <foreground color="-1250068"/>
           <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
           <text value="Ins. n. telefonate(mobile)"/>
         </properties>
       </component>
       <component id="eaacd" class="javax.swing.JTextField" binding="Tx6">
         <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
@@ -245,167 +440,85 @@
       </component>
       <component id="2ae8e" class="javax.swing.JButton" binding="salvatelefono">
         <constraints>
-          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-14474203"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <foreground color="-1250068"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="false"/>
           <text value="Salva"/>
+          <verifyInputWhenFocusTarget value="false"/>
         </properties>
       </component>
-      <component id="5f647" class="javax.swing.JLabel">
+      <component id="85004" class="javax.swing.JLabel" binding="indirizzo">
         <constraints>
-          <grid row="10" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font size="16"/>
+          <font name="Segoe UI" size="16"/>
           <foreground color="-1250068"/>
-          <text value="Bolletta mobile :"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Indirizzo(fisso)"/>
         </properties>
       </component>
-      <component id="3efba" class="javax.swing.JLabel">
+      <component id="cb4f2" class="javax.swing.JTextField" binding="Tx4">
         <constraints>
-          <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
         </constraints>
         <properties>
-          <foreground color="-1250068"/>
-          <text value="Indirizzo :"/>
-        </properties>
-      </component>
-      <component id="5be11" class="javax.swing.JLabel" binding="bollettaM">
-        <constraints>
-          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
           <text value=""/>
         </properties>
       </component>
-      <component id="f56ec" class="javax.swing.JLabel">
+      <component id="41764" class="javax.swing.JButton" binding="inviaindirizzo">
         <constraints>
-          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="1" height="1"/>
+          </grid>
         </constraints>
         <properties>
+          <background color="-14474203"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
           <foreground color="-1250068"/>
-          <text value="Costo/min :"/>
-        </properties>
-      </component>
-      <component id="4e14c" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value="Costo Risposta :"/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="false"/>
+          <text value="Salva"/>
+          <verifyInputWhenFocusTarget value="false"/>
         </properties>
       </component>
       <component id="82ffb" class="javax.swing.JLabel" binding="Costomin">
         <constraints>
-          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="79e07" class="javax.swing.JLabel" binding="costoR">
-        <constraints>
-          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="b507d" class="javax.swing.JLabel" binding="TotaleM">
-        <constraints>
-          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="e2e15" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value="Pagamento Totale :"/>
-        </properties>
-      </component>
-      <component id="60405" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font size="16"/>
-          <foreground color="-1250068"/>
-          <text value="Bolletta fisso :"/>
-        </properties>
-      </component>
-      <component id="1ac72" class="javax.swing.JLabel" binding="CostoF">
-        <constraints>
-          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="1cac0" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value="Costo/mese :"/>
-        </properties>
-      </component>
-      <component id="a007e" class="javax.swing.JTextField" binding="Tx7">
-        <constraints>
-          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
-      </component>
-      <component id="7d2b1" class="javax.swing.JLabel" binding="CostoMens">
-        <constraints>
-          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
         <properties>
           <foreground color="-1250068"/>
-          <text value="Costo Mensile(Fisso)"/>
+          <text value=""/>
         </properties>
       </component>
-      <component id="b6522" class="javax.swing.JButton" binding="inviacostfisso">
+      <component id="e4fb9" class="javax.swing.JButton" binding="Calcola">
         <constraints>
-          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="9" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="50"/>
+            <preferred-size width="1" height="1"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-14474203"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
           <foreground color="-1250068"/>
-          <text value="Salva"/>
-        </properties>
-      </component>
-      <component id="561c4" class="javax.swing.JLabel" binding="Ntelefonate">
-        <constraints>
-          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value="  Numero Telefonate :"/>
-        </properties>
-      </component>
-      <component id="8d7d" class="javax.swing.JLabel" binding="telefonate">
-        <constraints>
-          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-1250068"/>
-          <text value=""/>
+          <requestFocusEnabled value="false"/>
+          <rolloverEnabled value="false"/>
+          <text value="Calcola"/>
+          <verifyInputWhenFocusTarget value="false"/>
         </properties>
       </component>
     </children>
