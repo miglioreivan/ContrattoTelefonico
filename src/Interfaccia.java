@@ -49,6 +49,10 @@ public class Interfaccia  {
     private JTextField Tx7;
     private JLabel CostoMens;
     private JButton inviacostfisso;
+    private JTextField Tx8;
+    private JButton ntel;
+    private JLabel telefonate2;
+    private JLabel telfield;
 
     public Interfaccia()
     {
@@ -92,13 +96,18 @@ public class Interfaccia  {
            CostoF.setText(Tx7.getText()+"€");
            Tx7.setText("");
         });
+        ntel.addActionListener(actionEvent ->
+        {
+            telfield.setText(Tx8.getText());
+            Tx8.setText("");
+        });
         Calcola.addActionListener(actionEvent ->
         {
             calcolo1=Costomin.getText();
             calcolo=Double.parseDouble(calcolo1);
             calcolo2=telefonate.getText();
             calcolo=calcolo*Double.parseDouble(calcolo2)+Double.parseDouble(costorisp1);
-            TotaleM.setText(String.valueOf(calcolo));
+            TotaleM.setText(String.valueOf(calcolo)+"€");
             telefonate.setText(telefonate.getText()+"€");
             costoR.setText(costoR.getText()+"€");
             Costomin.setText( Costomin.getText()+"€");
